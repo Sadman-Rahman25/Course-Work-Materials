@@ -1,0 +1,15 @@
+1
+
+Here I implemented Dijkstra's algorithm by using a priority dfs system where the small weight will be pop first. if the a visited node is get a lower path, it change it's path using lowest weight and go through the recursion system so the others can update with the updated value
+
+2
+
+Here at first, I made the shortest distance of every vertex for both Alice and Bob. After that from the distance list, I ignored 0 and -1 as they cant be a place where the both can go and find out the short time difference of both where they both can go and the time needed is also less then the other path. 
+
+3
+
+first i made a set of every village people. After that I searched both of them in every friends group. if i found they are in same group means they are already friend by having a mututal friend. On the other hand, I did union the 2 set. and print the length of the updated union set.
+
+4
+
+At First, I sorted all the solution by the asencding order of the weight. After that, I started make connection using the concept of 4. and I ignored the connection where they are already in a group. taking a variable totaler I added all the weight, those were taken means not ignored. And got the final answer.
